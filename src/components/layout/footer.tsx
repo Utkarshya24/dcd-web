@@ -34,26 +34,26 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Product</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li><Link href="/pricing" className="hover:text-foreground transition-colors">Pricing</Link></li>
-              <li><Link href="#" className="hover:text-foreground transition-colors">Changelog</Link></li>
-              <li><Link href="#" className="hover:text-foreground transition-colors">Documentation</Link></li>
-              <li><Link href="#" className="hover:text-foreground transition-colors">Integrations</Link></li>
+              <li><Link href="/changelog" className="hover:text-foreground transition-colors">Changelog</Link></li>
+              <li><Link href="/docs" className="hover:text-foreground transition-colors">Documentation</Link></li>
+              <li><Link href="/integrations" className="hover:text-foreground transition-colors">Integrations</Link></li>
             </ul>
           </div>
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li><Link href="/about" className="hover:text-foreground transition-colors">About Us</Link></li>
-              <li><Link href="#" className="hover:text-foreground transition-colors">Blog</Link></li>
-              <li><Link href="#" className="hover:text-foreground transition-colors">Careers</Link></li>
-              <li><Link href="#" className="hover:text-foreground transition-colors">Contact</Link></li>
+              <li><Link href="/blog" className="hover:text-foreground transition-colors">Blog</Link></li>
+              <li><Link href="/careers" className="hover:text-foreground transition-colors">Careers</Link></li>
+              <li><Link href="/contact" className="hover:text-foreground transition-colors">Contact</Link></li>
             </ul>
           </div>
           <div>
              <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-3 text-sm text-muted-foreground">
-              <li><Link href="#" className="hover:text-foreground transition-colors">Privacy Policy</Link></li>
-              <li><Link href="#" className="hover:text-foreground transition-colors">Terms of Service</Link></li>
-              <li><Link href="#" className="hover:text-foreground transition-colors">Cookie Policy</Link></li>
+              <li><Link href="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link></li>
+              <li><Link href="/terms" className="hover:text-foreground transition-colors">Terms of Service</Link></li>
+              <li><Link href="/cookies" className="hover:text-foreground transition-colors">Cookie Policy</Link></li>
             </ul>
           </div>
         </div>
