@@ -5,6 +5,7 @@ import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -45,6 +46,7 @@ export function Navbar() {
             </Link>
             <Link href="#" className={buttonVariants({ size: "sm" })}>Sign Up</Link>
           </div>
+          <ThemeToggle />
           
           <button 
             className="md:hidden text-foreground/60 hover:text-foreground/80"
